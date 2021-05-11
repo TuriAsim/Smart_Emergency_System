@@ -1,0 +1,75 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.11
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Oct 08, 2016 at 04:30 PM
+-- Server version: 5.6.21
+-- PHP Version: 5.5.19
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `project`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `registered`
+--
+
+CREATE TABLE IF NOT EXISTS `registered` (
+`user_id` int(10) NOT NULL,
+  `NAME` varchar(30) NOT NULL,
+  `CELLNO` varchar(30) NOT NULL,
+  `SIMSN` varchar(100) NOT NULL,
+  `LATITUDE` varchar(100) NOT NULL,
+  `LONGITUDE` varchar(100) NOT NULL,
+  `TIME` varchar(30) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=57 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `registered`
+--
+
+INSERT INTO `registered` (`user_id`, `NAME`, `CELLNO`, `SIMSN`, `LATITUDE`, `LONGITUDE`, `TIME`) VALUES
+(10, 'asadali', '03085904680', '8992300089476042098', '34.0032551', '71.4972463', '2015-09-04 09:40:23'),
+(12, 'sajid', '03068002112', '8992100031571221336', '34.0032551', '71.4972463', '2015-09-14 22:38:07'),
+(14, 'asim', '03455162078', '89410060905079063824', '34.0032551', '71.4972465', '2015-09-15 22:53:38'),
+(33, 'aness', '03343049117', '89410034094317125621', '34.0032935', '71.4972047', '2015-10-29 10:57:55'),
+(38, 'asimu', '03340968474', '89410034121918083873', '34.0032899', '71.4972066', '2015-10-30 21:53:31'),
+(40, 'asimz', '03125623811', '8992040708092120401', '34.0004325499727', '71.47468328667438', '2015-10-31 08:30:49'),
+(51, 'asim', '03039888613', '8992300084200729193f', '33.9997975', '71.5452185', '2016-05-17 12:32:10'),
+(53, 'bluestak', '03039888613', '8901260244412261949', '33.990629', '71.533604', '2016-05-17 18:09:29'),
+(56, 'nighat', '03159329282', '8992040307143847938', '34.0006779', '71.5477288', '2016-05-23 10:53:18');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `registered`
+--
+ALTER TABLE `registered`
+ ADD PRIMARY KEY (`user_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `registered`
+--
+ALTER TABLE `registered`
+MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=57;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
