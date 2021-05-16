@@ -13,4 +13,4 @@ proximity area for which user has fast approach.
 
 
 **Project Demo**
-[![Smart Emergency System](https://img.youtube.com/vi/a2CcbudpdLU)](https://www.youtube.com/watch?v=a2CcbudpdLU)
+[![Smart Emergency System](https://img.youtube.com/vi/a2CcbudpdLU/0.jpg)](https://www.youtube.com/watch?v=a2CcbudpdLU)
